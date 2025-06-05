@@ -1,12 +1,29 @@
-list=[10,20,30,"nikil",True,0,(10+20j),False,1,True]
-print(list)
-x=list.copy()
-print(x)
-list.pop(3)
-print(list)
-del list[2]
-print(list)
-list.reverse()
-print(list)
-list.clear()
-print(list)
+ls=[10,20,30,40,50]
+x=len(ls)
+for i in range(x):
+    print(ls[i],"is available at positive index is:,i,"
+
+          index:",i-x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
