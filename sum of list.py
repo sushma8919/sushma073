@@ -1,5 +1,12 @@
-mylist=[3,30,8,0,15]
-sum=0
-for i in mylist:
-    sum=sum+i
-    print("the sum is:",sum)
+def calculate_sum(numbers):
+    total=0
+    for num in numbers:
+        total+=num
+        return total 
+    list=[]   
+n=int(input("enter the no.of elements in the list:"))
+for i in range(n):
+    num=eval(input("enter elements{}:",format(i+1)))
+list.append(num)
+result=calculate_sum(list)
+print("the sum of the list is",result)
